@@ -1,0 +1,256 @@
+body{
+    background:#F5F5DC;
+}
+li{
+    list-style: none;
+}
+
+.header{
+    background-color: #DC143C;
+    color: #FFFFFF;
+    height: 150px;
+}
+
+.header-logo{
+    float: left;
+    font-family:sans-serif;
+    font-size: 45px;
+    padding: 50px 30px;
+    margin-left: 20px;
+}
+
+.header img{
+    float: right;
+    height: 150px
+}
+
+.navigasi{
+    height: 50px;
+    background-color: #DC143C;
+
+}
+
+.navigasi ul li{
+    display: inline-block;
+    font-size: 24px;
+    color: white;
+    font-family: sans-serif;
+    line-height: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 0px;
+}
+
+.navigasi ul li:hover{
+    background-color: lightgrey;
+}
+
+.navigasi ul li a{
+    font-family: sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+.main{
+    padding:  50px 80px;
+}
+
+.copy-container h1{
+    font-size: 70px;
+    font-family: Arial;
+}
+
+.copy-container h2{
+    font-size: 20px;
+    margin-top: -2.5rem;
+    font-family: sans-serif;
+}
+
+.copy-container span {
+    color:  #FF1493;
+}
+
+.content{
+    padding: 100px;
+    height: 480px;
+    margin-top: 10px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.content ul{
+    margin-left: -45px;
+}
+
+.content li{
+    display: inline-block;
+}
+
+.content-main{
+    width: 800px;
+    height: 520px;
+    background-color: #fafafa;
+    margin: 0 auto;
+    padding-top: 20px;
+    border-radius: 10px;
+    border: 1px solid #eeeeee;
+}
+
+.img{
+    background-image: url(img.png);
+    background-color: #eaeaea;
+    background-size: cover;
+    border-radius: 100px;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    border: 1px solid #eaeaea;
+}
+
+
+.section-title{
+    margin-left: 20px;
+    border-bottom: 2px solid #dee7ec;
+    font-size: 20px;
+    padding-bottom: 15px;
+    margin-bottom: 50px;
+    font-family: sans-serif;
+}
+
+.section-title h1{
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+    font-weight: bold;
+    color: #6944ff;
+}
+
+.text {
+    text-align: center;
+    font-size: 15px;
+    margin: 0;
+    color: #324e63;
+}
+
+.content p {
+    margin: 0 auto;
+    padding-top: 20px;
+    width: 500px;
+    height: auto;
+    padding-bottom: 25px;
+
+}
+
+.footer {
+    background-color: #DC143C;
+    color: #FFFFFF;
+    width: 100%;
+    height: 50px;
+    font-size: 15px;
+    margin-top: 70px;
+    text-align: center;
+    font-style: italic;
+    padding-top: 22px;
+}
+
+.judul-jdwl{
+    text-align: center;
+    padding-top: 22px;
+    font-size: 18px;
+}
+
+.jdwl{
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 70px;
+    text-align: center;
+}
+ 
+.jdwl table, th, td {
+    border: 1px solid black;
+}
+.jdwl th, td {
+    padding: 10px;
+}
+.jdwl th {
+    background-color: #ff6699;
+    color: white;
+}
+.jdwl tr:hover {background-color: #f5f5f5;
+}
+
+.pddk table{
+    font-family: sans-serif;
+    color: #444;
+    border-collapse: collapse;
+    width: 50%;
+    border: 1px solid #f2f5f7;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.pddk tr:hover {background-color: #f5f5f5;
+}
+
+.about-container{
+    width: 55%;
+    height: 200px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.about-container img{
+    height: 120px;
+}
+
+.about-text{
+    width: 350px;
+}
+
+.about-text p:nth-child(1){
+    color: #403e3e;
+    font-weight: bold;
+    font-size: 23px;
+    line-height: 0px;
+}
+
+.about-text p:nth-child(2){
+    color: #7e7d7d;
+    font-size: 16px;
+    font-family: calibri;
+}
+
+.about-container2{
+    width: 55%;
+    height: 200px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.about-container2 img{
+    height: 130px;
+}
+
+.isi-aktivitas{
+    width: 600px;
+    height: 170px;
+    margin: 0px auto;
+    border: 2px solid darkblue;
+    text-align: center;
+    font-size: 18px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
